@@ -7,7 +7,6 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-
 /* =================== scroll section active link =================== */
 let section = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -18,7 +17,6 @@ window.onscroll = () => {
         let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
-        console.log(height)
         if(top >= offset && top < offset + height) {
             navLinks.forEach(links => {
                 links.classList.remove('active');
