@@ -120,7 +120,7 @@ section {
     }
 }
 
-.home .home-content .dev img:hover {
+.home .home-content .dev a:hover img {
     transform: scale(1.08);
     transform: rotateY(45deg);
     animation: rotateAnimation 1s linear forwards;
