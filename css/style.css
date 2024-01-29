@@ -132,7 +132,8 @@ section {
 }
 
 .home-img img {
-    width: 38vw;
+    width: 500px;
+    max-width: 100%;
     animation: 4s ease-in-out 0s infinite normal none running floatImage;
     border: 10px solid rgb(0, 238, 255);
     border-radius: 150px;
